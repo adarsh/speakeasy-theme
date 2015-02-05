@@ -1,5 +1,5 @@
 .global {
-  background: $ebony;
+  background: $blue;
   color: $white;
 
   a {
@@ -18,6 +18,7 @@
 
   li, a {
     @extend .inline;
+    color: $white;
     padding: $base-spacing $base-spacing/2;
   }
 
