@@ -19,6 +19,7 @@ configure :build do
   activate :relative_assets
 end
 
+# Comments on where this deploys
 activate :deploy do |deploy|
   deploy.build_before = true
   deploy.method = :git
